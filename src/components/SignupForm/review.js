@@ -11,7 +11,7 @@ function Review(){
 
     function handleSubmit(e){
        
-        history.push("/")
+        history.push("/multiStep-form-react/")
         alert("You have successfully submitted your information!")
         handleFormSubmit();
     }

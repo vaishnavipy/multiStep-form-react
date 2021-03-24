@@ -15,7 +15,7 @@ function Social(){
 
     function handleNext(data){
         handleSocialInfo(data)
-        history.push("/review")
+        history.push("/multiStep-form-react/review")
     }
 
     function handleChange(event){

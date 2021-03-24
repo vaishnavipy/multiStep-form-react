@@ -14,7 +14,7 @@ function Profile(){
     const handleNext =(data)=>{
         handleProfileInfo(data)
         
-        history.push("/social")
+        history.push("/multiStep-form-react/social")
     }
 
     function handleChange(event){
